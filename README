@@ -1,0 +1,117 @@
+# Power BI Business Dashboard Project
+
+## Project Context
+I worked as a Data Analyst in a company aiming to improve decision-making through dynamic reports.  
+Previously, business information was shared using static Excel files, which limited analysis, visibility, and KPI tracking.
+
+The objective of this project is to design an **interactive Power BI dashboard** capable of:
+- Centralizing and structuring data from multiple operational sources
+- Enabling analysis by segments (customers, products, suppliers, locations, periods)
+- Providing dynamic KPIs and visual insights to support decision-making
+
+## Main Goals
+- Build a **professional and interactive Power BI report**
+- Implement a **reliable data model** using best practices (Star Schema, Date Table, Controlled Relationships)
+- Translate business questions into meaningful KPIs and measures
+- Use advanced Power BI features (filters, bookmarks, interactions, storytelling)
+- Communicate clear and actionable insights for business decisions
+
+---
+
+## Project Phases
+
+### Phase 1 – Data Preparation & Modeling
+- Import all tables into Power BI
+- Verify and correct data types (dates, numbers, text)
+- Create relationships between tables using **Star Schema**
+- Build a **Date Table** (Year, Month, Quarter, Day)
+- Create business measures and KPIs
+- Organize the data model:
+  - Hide unused fields
+  - Create folders (Localization, Measures, KPIs, etc.)
+
+### Phase 2 – Core Visualizations
+- Professional visual environment:
+  - Consistent background
+  - Welcome / Home page
+  - Harmonized color theme
+
+**Visuals Implemented**
+- **Bar Chart – Top 5 Suppliers or Products**
+  - Dynamic subtitle showing cumulative value
+  - Automatic updates with filters and time periods
+
+- **Line Chart**
+  - KPI evolution over time (Year / Month / Quarter)
+  - Trend line for performance dynamics
+
+- **Pie / Donut Chart**
+  - Activity distribution by category or segment
+  - Relative contribution visualization
+
+- **KPI Cards**
+  - Display totals, volumes, delays, or key metrics
+  - Fully dynamic with filters
+
+---
+
+### Phase 3 – Tables & Interactions
+- Matrix and cross tables by customer, product, or supplier
+- Conditional formatting:
+  - Colors based on values
+  - Icons for thresholds (↑ ↓ ⚠)
+- Advanced filters and interactions
+- Bookmarks for navigation and storytelling
+- Tooltips for additional details
+
+---
+
+### Phase 4 – Data Analysis
+
+**Without DAX**
+- Standard aggregations (SUM, AVG, MAX, MIN)
+- Quick Measures
+- Visual calculations
+
+**With DAX**
+- Advanced measures for:
+  - Top 5 suppliers/products
+  - Segment and period comparisons
+  - Trend and anomaly detection
+  - Volume and delay impact analysis
+
+**Business Questions Addressed**
+- Which suppliers or products perform the best?
+- Which product category generates the highest activity?
+- Which region or city contributes the most?
+- What delays or gaps affect performance?
+- Which customer segments need attention?
+
+---
+
+### Phase 5 – Finalization & Publication
+- Report readability and consistency check
+- User experience optimization (navigation, filters, colors)
+- Publish to **Power BI Service**
+- Document the `.pbix` file with clear naming and organized folders
+- Write a short narrative report highlighting **3 key insights**
+
+---
+
+## Tools & Technologies
+- Power BI Desktop
+- DAX
+- Excel / CSV Data Sources
+- Data Modeling (Star Schema)
+
+## Skills Demonstrated
+- Data Modeling
+- KPI Design
+- DAX Measures
+- Data Visualization
+- Business Analysis
+- Storytelling with Data
+- Dashboard UX/UI
+
+## Author
+Abdelali Ouhsine
